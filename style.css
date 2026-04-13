@@ -8,13 +8,13 @@
     background-position: center center;
     background-repeat:no-repeat;
     background-size: max(1000px, 100vw);
-    height: 80vh;
+    height: 98vh;
     position: relative;
 }
 
 .main .box{
     opacity: 0.44;
-    height: 80vh;
+    height: 98vh;
     width: 100%;
     background-color: black;
     position: absolute;
@@ -28,4 +28,39 @@ nav{
     max-width: 80vw;
     margin: auto;
     height: 62px;
+    padding-top: 20px;
+}
+
+nav img{
+    width: 144px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button{
+    position: relative;
+    z-index: 10;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+.signIn{
+    background-color: red;
+}
+
+.english{
+    background-color: black;
+    border-color: gray;
+    margin-right: 10px;
+}
+.hero{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    z-index: 10;
 }
